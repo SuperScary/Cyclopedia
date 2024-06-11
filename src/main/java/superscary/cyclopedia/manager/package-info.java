@@ -1,0 +1,7 @@
+@ParametersAreNonnullByDefault
+@FieldsAreNonnullByDefault
+package superscary.cyclopedia.manager;
+
+import net.minecraft.FieldsAreNonnullByDefault;
+
+import javax.annotation.ParametersAreNonnullByDefault;

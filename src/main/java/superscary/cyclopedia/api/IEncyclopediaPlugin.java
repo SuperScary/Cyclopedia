@@ -10,7 +10,7 @@ import superscary.cyclopedia.api.content.page.Page;
  *
  * @since 1.0.0
  */
-public interface IEncyclopedia {
+public interface IEncyclopediaPlugin {
 
     /**
      * Allows registration of a plugin. ID's must be unique.
