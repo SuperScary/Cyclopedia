@@ -4,14 +4,15 @@ import net.minecraft.world.level.Level;
 import net.neoforged.bus.api.IEventBus;
 import org.jetbrains.annotations.Nullable;
 import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class CyclopediaServer extends CyclopediaBase {
 
-    static Logger logger = Cyclopedia.logger;
+    static Logger logger = LoggerFactory.getLogger(CyclopediaServer.class);
 
     public CyclopediaServer (IEventBus eventBus) {
         super(eventBus);
-        logger.info("{} server starting.", Cyclopedia.NAME);
+        logger.info("[{}] Server starting.", Cyclopedia.NAME);
     }
 
     @Override
